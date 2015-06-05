@@ -14,6 +14,13 @@
 		CE5672471B21A1900001DB35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5672461B21A1900001DB35 /* Images.xcassets */; };
 		CE56724A1B21A1900001DB35 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5672481B21A1900001DB35 /* LaunchScreen.xib */; };
 		CE5672561B21A1910001DB35 /* GoogleAnalyticsSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5672551B21A1910001DB35 /* GoogleAnalyticsSampleTests.m */; };
+		CE5672601B21A32F0001DB35 /* GoogleAnalyticsWebFile in Resources */ = {isa = PBXBuildFile; fileRef = CE56725F1B21A32F0001DB35 /* GoogleAnalyticsWebFile */; };
+		CE5672621B21A57B0001DB35 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5672611B21A57B0001DB35 /* CoreData.framework */; };
+		CE5672641B21A59D0001DB35 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5672631B21A59D0001DB35 /* SystemConfiguration.framework */; };
+		CE5672661B21ACFC0001DB35 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5672651B21ACFC0001DB35 /* libz.dylib */; };
+		CE5672681B21AD110001DB35 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5672671B21AD110001DB35 /* libsqlite3.dylib */; };
+		CE56726A1B21ADB30001DB35 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5672691B21ADB30001DB35 /* libGoogleAnalyticsServices.a */; };
+		CE56726D1B21E0110001DB35 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE56726C1B21E0110001DB35 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,14 @@
 		CE56724F1B21A1910001DB35 /* GoogleAnalyticsSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleAnalyticsSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5672541B21A1910001DB35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE5672551B21A1910001DB35 /* GoogleAnalyticsSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleAnalyticsSampleTests.m; sourceTree = "<group>"; };
+		CE56725F1B21A32F0001DB35 /* GoogleAnalyticsWebFile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GoogleAnalyticsWebFile; sourceTree = "<group>"; };
+		CE5672611B21A57B0001DB35 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CE5672631B21A59D0001DB35 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CE5672651B21ACFC0001DB35 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CE5672671B21AD110001DB35 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CE5672691B21ADB30001DB35 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = GoogleAnalyticsSample/GoogleAnalyticsWebFile/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		CE56726B1B21E0110001DB35 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CE56726C1B21E0110001DB35 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +62,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE56726A1B21ADB30001DB35 /* libGoogleAnalyticsServices.a in Frameworks */,
+				CE5672681B21AD110001DB35 /* libsqlite3.dylib in Frameworks */,
+				CE5672661B21ACFC0001DB35 /* libz.dylib in Frameworks */,
+				CE5672641B21A59D0001DB35 /* SystemConfiguration.framework in Frameworks */,
+				CE5672621B21A57B0001DB35 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,11 @@
 		CE56722D1B21A1900001DB35 = {
 			isa = PBXGroup;
 			children = (
+				CE5672691B21ADB30001DB35 /* libGoogleAnalyticsServices.a */,
+				CE5672671B21AD110001DB35 /* libsqlite3.dylib */,
+				CE5672651B21ACFC0001DB35 /* libz.dylib */,
+				CE5672631B21A59D0001DB35 /* SystemConfiguration.framework */,
+				CE5672611B21A57B0001DB35 /* CoreData.framework */,
 				CE5672381B21A1900001DB35 /* GoogleAnalyticsSample */,
 				CE5672521B21A1910001DB35 /* GoogleAnalyticsSampleTests */,
 				CE5672371B21A1900001DB35 /* Products */,
@@ -81,10 +106,13 @@
 		CE5672381B21A1900001DB35 /* GoogleAnalyticsSample */ = {
 			isa = PBXGroup;
 			children = (
+				CE56725F1B21A32F0001DB35 /* GoogleAnalyticsWebFile */,
 				CE56723D1B21A1900001DB35 /* AppDelegate.h */,
 				CE56723E1B21A1900001DB35 /* AppDelegate.m */,
 				CE5672401B21A1900001DB35 /* ViewController.h */,
 				CE5672411B21A1900001DB35 /* ViewController.m */,
+				CE56726B1B21E0110001DB35 /* SecondViewController.h */,
+				CE56726C1B21E0110001DB35 /* SecondViewController.m */,
 				CE5672431B21A1900001DB35 /* Main.storyboard */,
 				CE5672461B21A1900001DB35 /* Images.xcassets */,
 				CE5672481B21A1900001DB35 /* LaunchScreen.xib */,
@@ -200,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE5672451B21A1900001DB35 /* Main.storyboard in Resources */,
+				CE5672601B21A32F0001DB35 /* GoogleAnalyticsWebFile in Resources */,
 				CE56724A1B21A1900001DB35 /* LaunchScreen.xib in Resources */,
 				CE5672471B21A1900001DB35 /* Images.xcassets in Resources */,
 			);
@@ -219,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE56726D1B21E0110001DB35 /* SecondViewController.m in Sources */,
 				CE5672421B21A1900001DB35 /* ViewController.m in Sources */,
 				CE56723F1B21A1900001DB35 /* AppDelegate.m in Sources */,
 				CE56723C1B21A1900001DB35 /* main.m in Sources */,
@@ -351,6 +381,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoogleAnalyticsSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleAnalyticsSample/GoogleAnalyticsWebFile",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -361,6 +395,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoogleAnalyticsSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleAnalyticsSample/GoogleAnalyticsWebFile",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -418,6 +456,7 @@
 				CE56725B1B21A1910001DB35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE56725C1B21A1910001DB35 /* Build configuration list for PBXNativeTarget "GoogleAnalyticsSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +465,7 @@
 				CE56725E1B21A1910001DB35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
