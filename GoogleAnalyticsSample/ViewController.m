@@ -41,7 +41,7 @@
 
 - (IBAction)btnHitEventClick:(id)sender {
     
-    
+    //
     //Event Tracking via google analytics
     
     // May return nil if a tracker has not already been initialized with a property
