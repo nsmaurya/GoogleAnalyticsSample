@@ -20,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSLog(@"First View Controller");
     // Implementing automatic screen measurement through google analytics
     
     // May return nil if a tracker has not already been initialized with a
